@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English Sentence</title>
     <link rel="stylesheet" href="style.css">
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
 </head>
 <body>
-    <p id="sentence">Sentence: <input type="text" name="Sentence"></p>
-    <p id="letter">Letter:<input type="text" name="Letter"></p>
-    <button type="submit">Submit</button>
+    
+    <p >Sentence: <input type="text" id="sentence"></p>
+    <p >Letter:<input type="text" id="letter"></p>
+    <button type="submit" onclick="findLetter('sentence', 'letter')">Submit</button>
     <p id="output"></p>
 
     <script src="script.js"></script>
