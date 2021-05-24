@@ -44,7 +44,7 @@ var list = [
   
       for (var heading in row) {
         //checking if heading already in columns
-        if ($.inArray(heading, columns) == -1) {
+        if (columns.includes(heading) == -1) {
           columns.push(heading);
   
           // Creating the header bu appending all headings
