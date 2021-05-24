@@ -2,11 +2,10 @@ import java.util.Scanner;
 
 public class English {
     public static void main (String []args) {
-        String sentence;
-        String letter;
+        String sentence, letter;
         Scanner sc = new Scanner(System.in);
         System.out.println("Sentence: ");
-        sentence = sc.next();
+        sentence = sc.nextLine();
         System.out.println("Letter you want to find: ");
         letter = sc.next();
 
